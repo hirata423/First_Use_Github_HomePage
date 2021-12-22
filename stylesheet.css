@@ -79,9 +79,17 @@ html{
     text-align: center;
     margin-top: 15px;
     border-top: white 1px solid;
-    
-/*-----    border-bottom: white 1px solid;  -----*/  
+    padding:20px;
 }
+
+#main h3 {
+    font-family: 'Sawarabi Mincho', sans-serif;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+/*-----    border-bottom: white 1px solid;  -----*/  
+
 /*----------
 #main #service {
     ---------------*/
@@ -94,8 +102,9 @@ html{
 }
 
 .text .conte img {
-    width: 250px;
-    height: 250px;
+    width: 230px;
+    height: 230px;
+    padding: 20px;
 }
 
 .text .conte{
