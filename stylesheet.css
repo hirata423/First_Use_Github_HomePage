@@ -79,43 +79,37 @@ html{
     text-align: center;
     margin-top: 15px;
     border-top: white 1px solid;
+    padding-top: 3px;
+    
 /*-----    border-bottom: white 1px solid;  -----*/  
 }
 /*----------
 #main #service {
     ---------------*/
 
-#main h4 {
+.text .conte h4 {
     font-family: 'Sawarabi Mincho', sans-serif;
     font-size: 20px;
     color: rgb(255, 255, 255);
-    margin-left: 70px;
-    margin-right: 70px;
+
+}
+
+.text .conte img {
+    width: 100%;
+    height: auto;
+}
+
+.text .conte{
+    text-align: center;
+    display:inline-block;
+    width: 20%;
 }
 
 .text {
-    display: flex;
-    justify-content: center;
-
+    width: 100%;
+    text-align: center;
 }
 
-img {
-    width: 20%;
-    height: auto;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 10px;
-}
-
-.sort {
-    display: flex;
-    justify-content: center;
-}
-
-.text1 {
-    display: flex;
-    justify-content: center;
-}
 
 #footer {
     clear: both;
@@ -128,6 +122,9 @@ img {
 }
 
 @media screen and (min-width: 1px) {
+    .text .conte{
+        text-align: center;
+        display:flex;
     /* スマホ用レイアウト 1px以上の範囲に収めるデザインはこの中に記述 */
     }
 
@@ -136,8 +133,6 @@ img {
     }
 
 @media screen and (min-width: 1025px) {
-    #footer{
-        color: rgb(9, 255, 0);
-    }
+
     /* PC用レイアウト 1,025px以上の範囲に収めるデザインはこの中に記述 */
     }
