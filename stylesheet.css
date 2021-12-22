@@ -127,15 +127,25 @@ html{
     text-align: center;
 }
 
-@media screen and (min-width: 1px) {
-    /* スマホ用レイアウト 1px以上の範囲に収めるデザインはこの中に記述 */
+@media screen and (max-width: 480px) {
+    .text .conte img {
+        width: 230px;
+        height: 230px;
+        padding: 20px;
     }
-
-@media screen and (min-width: 600px) {
+    
+    .text .conte{
+        text-align: center;
+        display:block;
+    }
+    
+    .text {
+        text-align: center;
+    }
     /* タブレット用レイアウト 600px以上の範囲に収めるデザインはこの中に記述 */
     }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 600px) {
 
     /* PC用レイアウト 1,025px以上の範囲に収めるデザインはこの中に記述 */
     }
