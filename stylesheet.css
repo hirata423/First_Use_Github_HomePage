@@ -122,9 +122,6 @@ html{
 }
 
 @media screen and (min-width: 1px) {
-    .text .conte{
-        text-align: center;
-        display:flex;
     /* スマホ用レイアウト 1px以上の範囲に収めるデザインはこの中に記述 */
     }
 
