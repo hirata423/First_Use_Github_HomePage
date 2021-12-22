@@ -79,7 +79,6 @@ html{
     text-align: center;
     margin-top: 15px;
     border-top: white 1px solid;
-    padding-top: 3px;
     
 /*-----    border-bottom: white 1px solid;  -----*/  
 }
@@ -95,18 +94,16 @@ html{
 }
 
 .text .conte img {
-    width: 100%;
-    height: auto;
+    width: 250px;
+    height: 250px;
 }
 
 .text .conte{
     text-align: center;
     display:inline-block;
-    width: 20%;
 }
 
 .text {
-    width: 100%;
     text-align: center;
 }
 
