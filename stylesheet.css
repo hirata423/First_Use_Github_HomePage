@@ -132,8 +132,8 @@ img {
     }
 
 @media screen and (min-width: 600px) {
-    #header .header-list ul li{
-        color: chartreuse;
+    #footer{
+        background: rgb(30, 255, 0);
     }
     /* タブレット用レイアウト 600px以上の範囲に収めるデザインはこの中に記述 */
     }
