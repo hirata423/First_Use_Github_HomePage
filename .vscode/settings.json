@@ -1,3 +1,4 @@
 {
-    "workbench.sash.size": 2
+    "workbench.sash.size": 2,
+    "editor.tabSize": 2
 }

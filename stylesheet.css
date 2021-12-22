@@ -3,8 +3,11 @@
 body{
     margin: 0;
     padding: 0;
-    line-height: 150%;
-    
+    line-height: 150%;  
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 /*------header-------*/
@@ -123,4 +126,15 @@ img {
     font-weight: bold;
     text-align: center;
 }
-/*------Github調整用------*/
+
+@media screen and (min-width: 1px) {
+    /* スマホ用レイアウト 1px以上の範囲に収めるデザインはこの中に記述 */
+    }
+
+@media screen and (min-width: 600px) {
+    /* タブレット用レイアウト 600px以上の範囲に収めるデザインはこの中に記述 */
+    }
+
+@media screen and (min-width: 1025px) {
+    /* PC用レイアウト 1,025px以上の範囲に収めるデザインはこの中に記述 */
+    }
