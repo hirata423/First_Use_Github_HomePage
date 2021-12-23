@@ -129,6 +129,9 @@ html{
 
 @media screen and (max-width: 480px) {
     
+    html {
+        scroll-behavior: smooth;
+    }
     #header {
         background-color:rgb(248, 0, 50);
         height: 30px;
@@ -172,7 +175,7 @@ html{
     .text {
         text-align: center;
     }
-    
+
     }
 
 @media screen and (min-width: 600px) {
