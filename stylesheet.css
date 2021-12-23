@@ -146,9 +146,11 @@ html{
         top: -50px;
     }
     #wrapper{
-        padding-bottom: 100px;
+        padding-bottom: 50px;
     }
-
+    #main h2 {
+        margin: 0px;
+    }
     img.mariko{
         top: -60px;
     }
